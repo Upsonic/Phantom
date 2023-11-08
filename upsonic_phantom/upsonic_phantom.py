@@ -3,6 +3,7 @@
 
 from upsonic import Upsonic, Upsonic_Remote, HASHES
 
+
 class Upsonic_Phantom:
     def __init__(self, cloud, encryption_key="a") -> None:
         self.cloud = cloud
